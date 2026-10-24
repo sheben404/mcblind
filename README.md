@@ -10,6 +10,8 @@
 
 **[在线试玩 →](https://sheben404.github.io/mcblind/)** · [源代码](https://github.com/sheben404/mcblind)
 
+2026 麦当劳程序员创意开发大赛参赛作品 · [官方报名记录 #1305](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1305)
+
 **本地试玩：** `npm run dev` → 打开 http://127.0.0.1:4173
 
 ![McBlind 桌面界面](docs/preview-desktop.png)
@@ -89,7 +91,7 @@ npm run check
 
 题库比较的是各餐品标示的一份，**不是等重量或每 100 克对比**。数据是采集时快照，不代表门店当前在售状况，也不构成饮食或医疗建议。作品由参赛者独立开发，非麦当劳官方产品。
 
-参赛文件：[参赛声明](CONTEST_DECLARATION.md) · [MCP 接入](MCP_INTEGRATION.md) · [报名草稿](docs/registration.md)
+参赛文件：[参赛声明](CONTEST_DECLARATION.md) · [MCP 接入](MCP_INTEGRATION.md) · [报名记录](docs/registration.md)
 
 **如果它让你猜错了一题，欢迎 Star 一下，让下一位也来试试。**
 
