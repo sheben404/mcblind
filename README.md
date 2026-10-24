@@ -8,7 +8,8 @@
 
 > 已完成官方 MCP 实测接入：内置 **158 款餐品**的营养快照，采集于 **2026 年 10 月 24 日**。玩家打开即可挑战，无需配置 Token；维护者可随时同步更新。
 
-<!-- 发布后可将下一行替换为实际 GitHub Pages 在线试玩链接。 -->
+**[在线试玩 →](https://sheben404.github.io/mcblind/)** · [源代码](https://github.com/sheben404/mcblind)
+
 **本地试玩：** `npm run dev` → 打开 http://127.0.0.1:4173
 
 ![McBlind 桌面界面](docs/preview-desktop.png)
