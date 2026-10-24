@@ -66,13 +66,21 @@ export function createChallenge(data, seed) {
         if (!gap || !max || gap / max < 0.06) continue;
         // 排除太悬殊的入门题，但候选不足时仍允许，保证小题库可玩。
         const closeness = Math.min(left[metric], right[metric]) / max;
-        candidates.push({ left, right, pair, weight: closeness > 0.25 && closeness < 0.92 ? 3 : 1 });
+        candidates.push({ left, right, pair, closeness, weight: closeness > 0.25 && closeness < 0.92 ? 3 : 1 });
       }
     }
     if (!candidates.length) throw new Error('题库中可比较的餐品不足，请更新题库');
-    let ticket = random() * candidates.reduce((sum, item) => sum + item.weight, 0);
-    let pick = candidates.at(-1);
-    for (const candidate of candidates) { ticket -= candidate.weight; if (ticket < 0) { pick = candidate; break; } }
+    // 官方题库中饮品较多。先挑数值接近的对比，热量和蛋白质题优先包含餐食。
+    // 候选不足时退回原池，兼容只有少量餐品的题库。
+    const close = candidates.filter(item => item.closeness >= 0.25);
+    let pool = close.length ? close : candidates;
+    if (metric !== 'sodium') {
+      const savory = pool.filter(item => [item.left, item.right].some(food => ['burger', 'fries', 'nuggets'].includes(food.category)));
+      if (savory.length) pool = savory;
+    }
+    let ticket = random() * pool.reduce((sum, item) => sum + item.weight, 0);
+    let pick = pool.at(-1);
+    for (const candidate of pool) { ticket -= candidate.weight; if (ticket < 0) { pick = candidate; break; } }
     used.add(pick.pair);
     const sides = random() < 0.5 ? [pick.left, pick.right] : [pick.right, pick.left];
     rounds.push({ index: round, metric, left: sides[0], right: sides[1] });

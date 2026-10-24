@@ -1,23 +1,1273 @@
 {
   "schemaVersion": 1,
-  "source": "demo",
-  "sourceLabel": "虚构演示题库 · 非麦当劳真实营养数据",
-  "updatedAt": "2026-10-24T00:00:00.000Z",
-  "version": "demo-v1",
+  "source": "mcd-mcp",
+  "sourceLabel": "麦当劳中国官方 MCP · 每份餐品",
+  "updatedAt": "2026-10-24T14:51:36.844Z",
+  "version": "d5eaab2346fe",
   "foods": [
-    { "id": "demo-01", "name": "双层牛肉堡", "category": "burger", "energyKcal": 510, "protein": 28, "sodium": 950 },
-    { "id": "demo-02", "name": "香脆鸡腿堡", "category": "burger", "energyKcal": 545, "protein": 22, "sodium": 1100 },
-    { "id": "demo-03", "name": "芝士鱼排堡", "category": "burger", "energyKcal": 365, "protein": 17, "sodium": 650 },
-    { "id": "demo-04", "name": "原味牛肉堡", "category": "burger", "energyKcal": 290, "protein": 15, "sodium": 720 },
-    { "id": "demo-05", "name": "中份薯条", "category": "fries", "energyKcal": 315, "protein": 4, "sodium": 210 },
-    { "id": "demo-06", "name": "五块鸡米花", "category": "nuggets", "energyKcal": 265, "protein": 16, "sodium": 520 },
-    { "id": "demo-07", "name": "香草冰淇淋", "category": "dessert", "energyKcal": 195, "protein": 5, "sodium": 90 },
-    { "id": "demo-08", "name": "巧克力冰旋风", "category": "dessert", "energyKcal": 385, "protein": 8, "sodium": 175 },
-    { "id": "demo-09", "name": "中杯鲜奶拿铁", "category": "drink", "energyKcal": 180, "protein": 9, "sodium": 135 },
-    { "id": "demo-10", "name": "中杯柠檬汽水", "category": "drink", "energyKcal": 165, "protein": 0, "sodium": 35 },
-    { "id": "demo-11", "name": "玉米蔬菜杯", "category": "side", "energyKcal": 110, "protein": 3, "sodium": 45 },
-    { "id": "demo-12", "name": "鸡蛋早餐堡", "category": "burger", "energyKcal": 305, "protein": 19, "sodium": 810 },
-    { "id": "demo-13", "name": "蜜汁烤鸡翅", "category": "nuggets", "energyKcal": 230, "protein": 18, "sodium": 495 },
-    { "id": "demo-14", "name": "焦糖苹果派", "category": "dessert", "energyKcal": 260, "protein": 2, "sodium": 150 }
+    {
+      "id": "044da9754bd4",
+      "name": "热燕麦奶铁小杯",
+      "category": "side",
+      "energyKcal": 120,
+      "protein": 3,
+      "sodium": 81
+    },
+    {
+      "id": "054fd2cc4ccb",
+      "name": "芝士安格斯厚牛堡",
+      "category": "burger",
+      "energyKcal": 696,
+      "protein": 32,
+      "sodium": 897
+    },
+    {
+      "id": "0609d4984c8e",
+      "name": "烟肉蛋麦满分",
+      "category": "burger",
+      "energyKcal": 260,
+      "protein": 16,
+      "sodium": 483
+    },
+    {
+      "id": "06f0a2d294c4",
+      "name": "鲜蔬蛋沙拉叠叠卷",
+      "category": "burger",
+      "energyKcal": 266,
+      "protein": 11,
+      "sodium": 518
+    },
+    {
+      "id": "077a058a6068",
+      "name": "吉士汉堡包",
+      "category": "burger",
+      "energyKcal": 294,
+      "protein": 16,
+      "sodium": 673
+    },
+    {
+      "id": "099551b4f6e5",
+      "name": "yeyeyeye奶冻款",
+      "category": "side",
+      "energyKcal": 223,
+      "protein": 1,
+      "sodium": 37
+    },
+    {
+      "id": "0a4f9a28f2cf",
+      "name": "可乐中杯",
+      "category": "drink",
+      "energyKcal": 147,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "0bcebad8b46d",
+      "name": "冰牛奶大杯",
+      "category": "drink",
+      "energyKcal": 269,
+      "protein": 15,
+      "sodium": 154
+    },
+    {
+      "id": "0f1ab55afd52",
+      "name": "冰牛奶小杯",
+      "category": "drink",
+      "energyKcal": 147,
+      "protein": 8,
+      "sodium": 84
+    },
+    {
+      "id": "0fc9231842bc",
+      "name": "巨无霸",
+      "category": "side",
+      "energyKcal": 513,
+      "protein": 27,
+      "sodium": 961
+    },
+    {
+      "id": "13b45bb50b66",
+      "name": "苹果片",
+      "category": "side",
+      "energyKcal": 32,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "16a5d7eb2ad8",
+      "name": "纯悦",
+      "category": "side",
+      "energyKcal": 0,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "1ac1178b0035",
+      "name": "100%苹果汁",
+      "category": "drink",
+      "energyKcal": 88,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "1e2de7eb97b0",
+      "name": "脆香油条",
+      "category": "side",
+      "energyKcal": 202,
+      "protein": 5,
+      "sodium": 230
+    },
+    {
+      "id": "206326f1c94d",
+      "name": "锡兰红茶",
+      "category": "drink",
+      "energyKcal": 2,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "21bbc28e9aea",
+      "name": "猪柳蛋麦满分",
+      "category": "burger",
+      "energyKcal": 387,
+      "protein": 23,
+      "sodium": 846
+    },
+    {
+      "id": "21c3269a4467",
+      "name": "阳光柠檬红茶小杯",
+      "category": "drink",
+      "energyKcal": 85,
+      "protein": 0,
+      "sodium": 12
+    },
+    {
+      "id": "250df8db0606",
+      "name": "浓浓黑巧雪冰中杯",
+      "category": "side",
+      "energyKcal": 359,
+      "protein": 8,
+      "sodium": 224
+    },
+    {
+      "id": "25a2cd039a66",
+      "name": "热美式小杯",
+      "category": "drink",
+      "energyKcal": 10,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "27e4f4e1ba86",
+      "name": "热浓浓燕麦黑巧中杯",
+      "category": "side",
+      "energyKcal": 157,
+      "protein": 3,
+      "sodium": 114
+    },
+    {
+      "id": "2932c906f2c1",
+      "name": "热浓浓抹茶牛奶中杯",
+      "category": "drink",
+      "energyKcal": 238,
+      "protein": 11,
+      "sodium": 104
+    },
+    {
+      "id": "29989f51f664",
+      "name": "浓浓黑巧雪冰大杯",
+      "category": "side",
+      "energyKcal": 444,
+      "protein": 11,
+      "sodium": 258
+    },
+    {
+      "id": "2a57fb579697",
+      "name": "咖啡阿芙佳朵",
+      "category": "drink",
+      "energyKcal": 139,
+      "protein": 4,
+      "sodium": 49
+    },
+    {
+      "id": "2bb0048cc614",
+      "name": "双层猪柳蛋麦满分",
+      "category": "burger",
+      "energyKcal": 513,
+      "protein": 29,
+      "sodium": 1210
+    },
+    {
+      "id": "2bdd27a78aa6",
+      "name": "柠檬拉明顿",
+      "category": "side",
+      "energyKcal": 121,
+      "protein": 2,
+      "sodium": 35
+    },
+    {
+      "id": "2bfc9273e751",
+      "name": "果然多肉",
+      "category": "side",
+      "energyKcal": 478,
+      "protein": 36,
+      "sodium": 1343
+    },
+    {
+      "id": "2c23e4212338",
+      "name": "奥利奥麦旋风",
+      "category": "dessert",
+      "energyKcal": 266,
+      "protein": 5,
+      "sodium": 116
+    },
+    {
+      "id": "2c3641a68372",
+      "name": "小杯鲜萃咖啡",
+      "category": "drink",
+      "energyKcal": 15,
+      "protein": 1,
+      "sodium": 2
+    },
+    {
+      "id": "2dbb1222c9e5",
+      "name": "迷你草莓新地",
+      "category": "dessert",
+      "energyKcal": 122,
+      "protein": 2,
+      "sodium": 42
+    },
+    {
+      "id": "2e054b44eae0",
+      "name": "火腿扒早安营养卷",
+      "category": "burger",
+      "energyKcal": 444,
+      "protein": 16,
+      "sodium": 1065
+    },
+    {
+      "id": "2ea527da1036",
+      "name": "热美式中杯",
+      "category": "drink",
+      "energyKcal": 13,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "306b65036834",
+      "name": "热浓浓燕麦黑巧大杯",
+      "category": "side",
+      "energyKcal": 213,
+      "protein": 4,
+      "sodium": 156
+    },
+    {
+      "id": "316a2b484236",
+      "name": "香芋派",
+      "category": "dessert",
+      "energyKcal": 232,
+      "protein": 2,
+      "sodium": 159
+    },
+    {
+      "id": "32720c520539",
+      "name": "儿童鱼排堡",
+      "category": "burger",
+      "energyKcal": 269,
+      "protein": 15,
+      "sodium": 442
+    },
+    {
+      "id": "33389bf638f3",
+      "name": "浓浓抹茶雪冰大杯",
+      "category": "drink",
+      "energyKcal": 339,
+      "protein": 8,
+      "sodium": 194
+    },
+    {
+      "id": "34bfffdb7913",
+      "name": "麦麦脆汁鸡-带骨里脊",
+      "category": "drink",
+      "energyKcal": 332,
+      "protein": 22,
+      "sodium": 812
+    },
+    {
+      "id": "35bc746f9cbb",
+      "name": "热燕麦奶铁大杯",
+      "category": "side",
+      "energyKcal": 222,
+      "protein": 5,
+      "sodium": 152
+    },
+    {
+      "id": "38133914f1a9",
+      "name": "中薯条",
+      "category": "fries",
+      "energyKcal": 289,
+      "protein": 4,
+      "sodium": 165
+    },
+    {
+      "id": "38fc7b1bb1ad",
+      "name": "麦辣鸡翅-2块",
+      "category": "nuggets",
+      "energyKcal": 224,
+      "protein": 13,
+      "sodium": 537
+    },
+    {
+      "id": "3cd203753bac",
+      "name": "草莓拉明顿",
+      "category": "side",
+      "energyKcal": 121,
+      "protein": 2,
+      "sodium": 34
+    },
+    {
+      "id": "3e4474ddc68d",
+      "name": "特浓奶香雪冰大杯",
+      "category": "side",
+      "energyKcal": 309,
+      "protein": 7,
+      "sodium": 192
+    },
+    {
+      "id": "3e6c811d94e0",
+      "name": "浓浓抹茶雪冰中杯",
+      "category": "drink",
+      "energyKcal": 289,
+      "protein": 7,
+      "sodium": 181
+    },
+    {
+      "id": "3fd6a64c7998",
+      "name": "无糖可口可乐小杯",
+      "category": "drink",
+      "energyKcal": 0,
+      "protein": 0,
+      "sodium": 25
+    },
+    {
+      "id": "42d5eec2d43a",
+      "name": "草莓新地",
+      "category": "dessert",
+      "energyKcal": 245,
+      "protein": 4,
+      "sodium": 84
+    },
+    {
+      "id": "44a5a7cc7591",
+      "name": "小薯条",
+      "category": "fries",
+      "energyKcal": 210,
+      "protein": 3,
+      "sodium": 120
+    },
+    {
+      "id": "45cb6da1e3bc",
+      "name": "“苹板”支撑Pro",
+      "category": "side",
+      "energyKcal": 476,
+      "protein": 25,
+      "sodium": 1077
+    },
+    {
+      "id": "487629bbcee8",
+      "name": "热燕麦奶中杯",
+      "category": "side",
+      "energyKcal": 157,
+      "protein": 3,
+      "sodium": 114
+    },
+    {
+      "id": "48a14de97f55",
+      "name": "薄皮焦香V翅",
+      "category": "side",
+      "energyKcal": 192,
+      "protein": 17,
+      "sodium": 594
+    },
+    {
+      "id": "4a2e61ca8e70",
+      "name": "冰燕麦奶小杯",
+      "category": "side",
+      "energyKcal": 131,
+      "protein": 3,
+      "sodium": 95
+    },
+    {
+      "id": "4a9846820705",
+      "name": "板烧鸡腿堡",
+      "category": "burger",
+      "energyKcal": 391,
+      "protein": 23,
+      "sodium": 1041
+    },
+    {
+      "id": "4cd9f1efcaba",
+      "name": "不素之霸双层牛堡",
+      "category": "burger",
+      "energyKcal": 493,
+      "protein": 28,
+      "sodium": 1012
+    },
+    {
+      "id": "4f993c61f721",
+      "name": "川宁伯爵红茶",
+      "category": "drink",
+      "energyKcal": 2,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "51388c20db82",
+      "name": "迷你薯条",
+      "category": "fries",
+      "energyKcal": 106,
+      "protein": 2,
+      "sodium": 61
+    },
+    {
+      "id": "51b3f1526149",
+      "name": "麦乐鸡4块",
+      "category": "nuggets",
+      "energyKcal": 170,
+      "protein": 10,
+      "sodium": 337
+    },
+    {
+      "id": "54dd3cb3cf81",
+      "name": "冰燕麦奶中杯",
+      "category": "side",
+      "energyKcal": 199,
+      "protein": 4,
+      "sodium": 145
+    },
+    {
+      "id": "5527cf2c5570",
+      "name": "卡布奇诺中杯",
+      "category": "side",
+      "energyKcal": 167,
+      "protein": 9,
+      "sodium": 88
+    },
+    {
+      "id": "5654bc4b84d9",
+      "name": "热浓浓抹茶牛奶大杯",
+      "category": "drink",
+      "energyKcal": 333,
+      "protein": 14,
+      "sodium": 142
+    },
+    {
+      "id": "57528103335b",
+      "name": "猪柳麦满分",
+      "category": "burger",
+      "energyKcal": 308,
+      "protein": 16,
+      "sodium": 781
+    },
+    {
+      "id": "58dc5a6cc4a3",
+      "name": "热奶铁中杯",
+      "category": "side",
+      "energyKcal": 186,
+      "protein": 11,
+      "sodium": 99
+    },
+    {
+      "id": "5aa1810c7b26",
+      "name": "冰美式中杯",
+      "category": "drink",
+      "energyKcal": 13,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "5b15a8f88736",
+      "name": "芝士双层安格斯厚牛堡",
+      "category": "burger",
+      "energyKcal": 1003,
+      "protein": 58,
+      "sodium": 1373
+    },
+    {
+      "id": "5d0df0d2c5f2",
+      "name": "大薯条",
+      "category": "fries",
+      "energyKcal": 379,
+      "protein": 6,
+      "sodium": 216
+    },
+    {
+      "id": "5ed2bc176a4e",
+      "name": "菠萝派",
+      "category": "dessert",
+      "energyKcal": 221,
+      "protein": 2,
+      "sodium": 147
+    },
+    {
+      "id": "66c50804b69b",
+      "name": "热朱古力",
+      "category": "side",
+      "energyKcal": 125,
+      "protein": 2,
+      "sodium": 107
+    },
+    {
+      "id": "67945ab7c43a",
+      "name": "冰浓浓抹茶牛奶大杯",
+      "category": "drink",
+      "energyKcal": 240,
+      "protein": 9,
+      "sodium": 89
+    },
+    {
+      "id": "684790ad3d8f",
+      "name": "蒜了吧黄油风味薄皮脆汁鸡-带骨里脊",
+      "category": "drink",
+      "energyKcal": 126,
+      "protein": 19,
+      "sodium": 750
+    },
+    {
+      "id": "69e8f93ff086",
+      "name": "热牛奶中杯",
+      "category": "drink",
+      "energyKcal": 176,
+      "protein": 10,
+      "sodium": 101
+    },
+    {
+      "id": "6bca7127da67",
+      "name": "冰牛奶中杯",
+      "category": "drink",
+      "energyKcal": 224,
+      "protein": 13,
+      "sodium": 128
+    },
+    {
+      "id": "6bfef0a4dd23",
+      "name": "脆脆薯条",
+      "category": "fries",
+      "energyKcal": 279,
+      "protein": 4,
+      "sodium": 540
+    },
+    {
+      "id": "6c929d8b9e3b",
+      "name": "可乐大杯",
+      "category": "drink",
+      "energyKcal": 224,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "6ccc51b80e12",
+      "name": "朱古力新地",
+      "category": "dessert",
+      "energyKcal": 282,
+      "protein": 5,
+      "sodium": 126
+    },
+    {
+      "id": "6cdab915747f",
+      "name": "大杯玉米杯",
+      "category": "side",
+      "energyKcal": 87,
+      "protein": 4,
+      "sodium": 2
+    },
+    {
+      "id": "6ef5378b3be2",
+      "name": "冰燕麦奶铁中杯",
+      "category": "side",
+      "energyKcal": 132,
+      "protein": 3,
+      "sodium": 87
+    },
+    {
+      "id": "719769f49734",
+      "name": "酥酥多笋卷",
+      "category": "burger",
+      "energyKcal": 342,
+      "protein": 14,
+      "sodium": 1044
+    },
+    {
+      "id": "727c72338e9f",
+      "name": "冰浓浓黑巧中杯",
+      "category": "side",
+      "energyKcal": 135,
+      "protein": 8,
+      "sodium": 77
+    },
+    {
+      "id": "77c2981c0c3e",
+      "name": "绝代双翅",
+      "category": "side",
+      "energyKcal": 469,
+      "protein": 32,
+      "sodium": 1167
+    },
+    {
+      "id": "79c2526f04b1",
+      "name": "无糖可口可乐大杯",
+      "category": "drink",
+      "energyKcal": 0,
+      "protein": 0,
+      "sodium": 53
+    },
+    {
+      "id": "7a6827e5cd20",
+      "name": "雪碧中杯",
+      "category": "drink",
+      "energyKcal": 105,
+      "protein": 0,
+      "sodium": 29
+    },
+    {
+      "id": "7e3669d5f993",
+      "name": "冰浓浓抹茶牛奶中杯",
+      "category": "drink",
+      "energyKcal": 196,
+      "protein": 8,
+      "sodium": 80
+    },
+    {
+      "id": "81f0b2337fec",
+      "name": "大杯鲜萃咖啡",
+      "category": "drink",
+      "energyKcal": 13,
+      "protein": 1,
+      "sodium": 3
+    },
+    {
+      "id": "84f726a4eda0",
+      "name": "汉堡包",
+      "category": "burger",
+      "energyKcal": 248,
+      "protein": 13,
+      "sodium": 492
+    },
+    {
+      "id": "859f6e9770cd",
+      "name": "冰奶铁小杯",
+      "category": "side",
+      "energyKcal": 86,
+      "protein": 5,
+      "sodium": 44
+    },
+    {
+      "id": "8a85c1b58558",
+      "name": "yeyeyeye爆珠款",
+      "category": "side",
+      "energyKcal": 212,
+      "protein": 1,
+      "sodium": 122
+    },
+    {
+      "id": "8aed521315d8",
+      "name": "冰美式大杯",
+      "category": "drink",
+      "energyKcal": 14,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "8eea05a6da02",
+      "name": "牛气满满",
+      "category": "side",
+      "energyKcal": 495,
+      "protein": 26,
+      "sodium": 764
+    },
+    {
+      "id": "94a6101a29a0",
+      "name": "双层深海鳕鱼堡",
+      "category": "burger",
+      "energyKcal": 485,
+      "protein": 28,
+      "sodium": 917
+    },
+    {
+      "id": "9594b2b3ed87",
+      "name": "冰浓浓燕麦黑巧大杯",
+      "category": "side",
+      "energyKcal": 131,
+      "protein": 3,
+      "sodium": 95
+    },
+    {
+      "id": "975efd72600e",
+      "name": "优品豆浆大杯",
+      "category": "drink",
+      "energyKcal": 202,
+      "protein": 8,
+      "sodium": 43
+    },
+    {
+      "id": "98c3a304acc5",
+      "name": "专“薯鱼”你",
+      "category": "side",
+      "energyKcal": 463,
+      "protein": 18,
+      "sodium": 652
+    },
+    {
+      "id": "99bfd5620da9",
+      "name": "大杯怡泉+C",
+      "category": "side",
+      "energyKcal": 168,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "9be1fb3f6281",
+      "name": "麦香鸡",
+      "category": "side",
+      "energyKcal": 369,
+      "protein": 15,
+      "sodium": 731
+    },
+    {
+      "id": "9d1c98be12eb",
+      "name": "冰燕麦奶大杯",
+      "category": "side",
+      "energyKcal": 239,
+      "protein": 5,
+      "sodium": 174
+    },
+    {
+      "id": "a23dccd490f9",
+      "name": "皮蛋鸡肉粥",
+      "category": "side",
+      "energyKcal": 133,
+      "protein": 6,
+      "sodium": 611
+    },
+    {
+      "id": "a5623be2042f",
+      "name": "热奶铁大杯",
+      "category": "side",
+      "energyKcal": 249,
+      "protein": 14,
+      "sodium": 134
+    },
+    {
+      "id": "a64cae839b47",
+      "name": "培根蔬萃双层牛堡",
+      "category": "burger",
+      "energyKcal": 442,
+      "protein": 24,
+      "sodium": 728
+    },
+    {
+      "id": "a67b457df3fa",
+      "name": "热牛奶大杯",
+      "category": "drink",
+      "energyKcal": 240,
+      "protein": 13,
+      "sodium": 137
+    },
+    {
+      "id": "a71a3fc7c0a7",
+      "name": "冰奶铁大杯",
+      "category": "side",
+      "energyKcal": 162,
+      "protein": 9,
+      "sodium": 85
+    },
+    {
+      "id": "aa2d8de4226c",
+      "name": "浓缩咖啡",
+      "category": "drink",
+      "energyKcal": 13,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "aa3e868d9d70",
+      "name": "热焦糖玛奇朵",
+      "category": "side",
+      "energyKcal": 167,
+      "protein": 9,
+      "sodium": 88
+    },
+    {
+      "id": "aa7bd5d969a3",
+      "name": "麦香鱼",
+      "category": "side",
+      "energyKcal": 325,
+      "protein": 16,
+      "sodium": 556
+    },
+    {
+      "id": "ac92a76c70b7",
+      "name": "德式图林根香肠",
+      "category": "side",
+      "energyKcal": 87,
+      "protein": 5,
+      "sodium": 293
+    },
+    {
+      "id": "acac5523b845",
+      "name": "鸡肉蛋沙拉叠叠卷",
+      "category": "burger",
+      "energyKcal": 387,
+      "protein": 17,
+      "sodium": 842
+    },
+    {
+      "id": "ae379d1e1fc4",
+      "name": "热浓浓黑巧大杯",
+      "category": "side",
+      "energyKcal": 240,
+      "protein": 13,
+      "sodium": 137
+    },
+    {
+      "id": "aec5dd95c06f",
+      "name": "雪碧大杯",
+      "category": "drink",
+      "energyKcal": 160,
+      "protein": 0,
+      "sodium": 45
+    },
+    {
+      "id": "b0cc54ec31ce",
+      "name": "大脆鸡扒麦满分",
+      "category": "burger",
+      "energyKcal": 361,
+      "protein": 16,
+      "sodium": 804
+    },
+    {
+      "id": "b2529ca786e3",
+      "name": "麦麦趣鸡球",
+      "category": "side",
+      "energyKcal": 266,
+      "protein": 17,
+      "sodium": 789
+    },
+    {
+      "id": "b3096a158779",
+      "name": "火腿扒麦满分",
+      "category": "burger",
+      "energyKcal": 261,
+      "protein": 14,
+      "sodium": 608
+    },
+    {
+      "id": "b4cca9d70fbb",
+      "name": "圆筒冰淇淋",
+      "category": "dessert",
+      "energyKcal": 93,
+      "protein": 2,
+      "sodium": 36
+    },
+    {
+      "id": "b51092cbdf49",
+      "name": "猪柳炒双蛋堡",
+      "category": "burger",
+      "energyKcal": 437,
+      "protein": 25,
+      "sodium": 705
+    },
+    {
+      "id": "b57638e9bda9",
+      "name": "冰燕麦奶铁小杯",
+      "category": "side",
+      "energyKcal": 77,
+      "protein": 2,
+      "sodium": 50
+    },
+    {
+      "id": "b99e400e6630",
+      "name": "图林根香肠早安营养卷",
+      "category": "burger",
+      "energyKcal": 425,
+      "protein": 14,
+      "sodium": 977
+    },
+    {
+      "id": "bb5bb417c025",
+      "name": "阳光柠檬红茶大杯",
+      "category": "drink",
+      "energyKcal": 178,
+      "protein": 0,
+      "sodium": 25
+    },
+    {
+      "id": "bb8b6170456c",
+      "name": "麦辣鸡腿汉堡",
+      "category": "burger",
+      "energyKcal": 485,
+      "protein": 24,
+      "sodium": 1208
+    },
+    {
+      "id": "bbee241ba041",
+      "name": "冰美式小杯",
+      "category": "drink",
+      "energyKcal": 10,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "bfc1f1e99d90",
+      "name": "蒜了吧黄油风味薄皮脆汁鸡-琵琶腿",
+      "category": "drink",
+      "energyKcal": 164,
+      "protein": 19,
+      "sodium": 867
+    },
+    {
+      "id": "c09f900f52c8",
+      "name": "可乐小杯",
+      "category": "drink",
+      "energyKcal": 107,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "c13470df4700",
+      "name": "草莓麦旋风",
+      "category": "dessert",
+      "energyKcal": 295,
+      "protein": 6,
+      "sodium": 122
+    },
+    {
+      "id": "c164d00a2e89",
+      "name": "雪碧小杯",
+      "category": "drink",
+      "energyKcal": 76,
+      "protein": 0,
+      "sodium": 21
+    },
+    {
+      "id": "c24ba393a30b",
+      "name": "热燕麦奶大杯",
+      "category": "side",
+      "energyKcal": 213,
+      "protein": 4,
+      "sodium": 156
+    },
+    {
+      "id": "c41f1daedb1b",
+      "name": "热美式大杯",
+      "category": "drink",
+      "energyKcal": 14,
+      "protein": 1,
+      "sodium": 0
+    },
+    {
+      "id": "c4ec05633d7c",
+      "name": "双层原味板烧鸡腿麦满分",
+      "category": "burger",
+      "energyKcal": 355,
+      "protein": 23,
+      "sodium": 984
+    },
+    {
+      "id": "ca2cb13e41da",
+      "name": "优品豆浆小杯",
+      "category": "drink",
+      "energyKcal": 151,
+      "protein": 6,
+      "sodium": 32
+    },
+    {
+      "id": "caced8c8c2c0",
+      "name": "无糖可口可乐中杯",
+      "category": "drink",
+      "energyKcal": 0,
+      "protein": 0,
+      "sodium": 35
+    },
+    {
+      "id": "cbe68edd3ab0",
+      "name": "冰奶铁中杯",
+      "category": "side",
+      "energyKcal": 148,
+      "protein": 8,
+      "sodium": 77
+    },
+    {
+      "id": "cd1bcf787aac",
+      "name": "冰浓浓燕麦黑巧中杯",
+      "category": "side",
+      "energyKcal": 120,
+      "protein": 2,
+      "sodium": 87
+    },
+    {
+      "id": "ceeb33d9528b",
+      "name": "冰焦糖玛奇朵",
+      "category": "side",
+      "energyKcal": 148,
+      "protein": 8,
+      "sodium": 77
+    },
+    {
+      "id": "cf5d08af8e87",
+      "name": "冰燕麦奶铁大杯",
+      "category": "side",
+      "energyKcal": 145,
+      "protein": 4,
+      "sodium": 96
+    },
+    {
+      "id": "d368a4fbbd2a",
+      "name": "阳光柠檬红茶中杯",
+      "category": "drink",
+      "energyKcal": 117,
+      "protein": 0,
+      "sodium": 17
+    },
+    {
+      "id": "d481d0407c32",
+      "name": "双层火腿扒麦满分",
+      "category": "burger",
+      "energyKcal": 385,
+      "protein": 21,
+      "sodium": 979
+    },
+    {
+      "id": "d59404b1f99e",
+      "name": "麦麦脆汁鸡-琵琶腿",
+      "category": "drink",
+      "energyKcal": 328,
+      "protein": 21,
+      "sodium": 905
+    },
+    {
+      "id": "d687f97e785a",
+      "name": "培根安格斯厚牛堡",
+      "category": "burger",
+      "energyKcal": 707,
+      "protein": 34,
+      "sodium": 1037
+    },
+    {
+      "id": "d8b441cb75e3",
+      "name": "抹茶阿芙佳朵",
+      "category": "drink",
+      "energyKcal": 147,
+      "protein": 3,
+      "sodium": 50
+    },
+    {
+      "id": "dae9458a7862",
+      "name": "热牛奶小杯",
+      "category": "drink",
+      "energyKcal": 147,
+      "protein": 8,
+      "sodium": 84
+    },
+    {
+      "id": "dd55597c6e54",
+      "name": "热奶铁小杯",
+      "category": "side",
+      "energyKcal": 134,
+      "protein": 8,
+      "sodium": 72
+    },
+    {
+      "id": "dd6328ae2230",
+      "name": "热浓浓黑巧中杯",
+      "category": "side",
+      "energyKcal": 176,
+      "protein": 10,
+      "sodium": 101
+    },
+    {
+      "id": "defed5b6892e",
+      "name": "卡布奇诺大杯",
+      "category": "side",
+      "energyKcal": 223,
+      "protein": 13,
+      "sodium": 120
+    },
+    {
+      "id": "dfacf98031aa",
+      "name": "麦旋酷阳光橙",
+      "category": "side",
+      "energyKcal": 228,
+      "protein": 1,
+      "sodium": 77
+    },
+    {
+      "id": "dfd228853f3b",
+      "name": "原味板烧鸡腿炒双蛋堡",
+      "category": "burger",
+      "energyKcal": 419,
+      "protein": 27,
+      "sodium": 715
+    },
+    {
+      "id": "e20f60d2b95f",
+      "name": "中杯怡泉+C",
+      "category": "side",
+      "energyKcal": 110,
+      "protein": 0,
+      "sodium": 0
+    },
+    {
+      "id": "e268fc023260",
+      "name": "原味板烧鸡腿麦满分",
+      "category": "burger",
+      "energyKcal": 246,
+      "protein": 15,
+      "sodium": 611
+    },
+    {
+      "id": "e4739c87707e",
+      "name": "麦乐鸡5块",
+      "category": "nuggets",
+      "energyKcal": 213,
+      "protein": 12,
+      "sodium": 422
+    },
+    {
+      "id": "e84ba6fb37b8",
+      "name": "特浓奶香雪冰中杯",
+      "category": "side",
+      "energyKcal": 269,
+      "protein": 6,
+      "sodium": 180
+    },
+    {
+      "id": "e880e6822a88",
+      "name": "蜜汁快乐",
+      "category": "drink",
+      "energyKcal": 258,
+      "protein": 22,
+      "sodium": 721
+    },
+    {
+      "id": "e8dccc664729",
+      "name": "那么大鸡排",
+      "category": "nuggets",
+      "energyKcal": 385,
+      "protein": 24,
+      "sodium": 996
+    },
+    {
+      "id": "e999b47903b6",
+      "name": "【美汁源】“黄金橙橙”",
+      "category": "drink",
+      "energyKcal": 165,
+      "protein": 0,
+      "sodium": 53
+    },
+    {
+      "id": "ea0b73fd74bc",
+      "name": "柠萌风味薄皮焦香V翅",
+      "category": "side",
+      "energyKcal": 204,
+      "protein": 18,
+      "sodium": 768
+    },
+    {
+      "id": "eb0c0918b8e4",
+      "name": "迷你朱古力新地",
+      "category": "dessert",
+      "energyKcal": 140,
+      "protein": 3,
+      "sodium": 63
+    },
+    {
+      "id": "ed949a458574",
+      "name": "热燕麦奶小杯",
+      "category": "side",
+      "energyKcal": 131,
+      "protein": 3,
+      "sodium": 95
+    },
+    {
+      "id": "f40451faff07",
+      "name": "热燕麦奶铁中杯",
+      "category": "side",
+      "energyKcal": 167,
+      "protein": 4,
+      "sodium": 112
+    },
+    {
+      "id": "f52b1a43fa3c",
+      "name": "培根双层安格斯厚牛堡",
+      "category": "burger",
+      "energyKcal": 987,
+      "protein": 55,
+      "sodium": 1191
+    },
+    {
+      "id": "f55707cedeb5",
+      "name": "蜜汁BBQ风味薄皮脆汁鸡-带骨里脊",
+      "category": "drink",
+      "energyKcal": 152,
+      "protein": 20,
+      "sodium": 635
+    },
+    {
+      "id": "f8204ac89322",
+      "name": "雪菜脆笋鸡肉粥",
+      "category": "side",
+      "energyKcal": 120,
+      "protein": 4,
+      "sodium": 552
+    },
+    {
+      "id": "f8d20be0ccab",
+      "name": "小杯玉米杯",
+      "category": "side",
+      "energyKcal": 53,
+      "protein": 2,
+      "sodium": 1
+    },
+    {
+      "id": "f9a2ae688972",
+      "name": "冰浓浓黑巧大杯",
+      "category": "side",
+      "energyKcal": 147,
+      "protein": 8,
+      "sodium": 84
+    },
+    {
+      "id": "fd39f62038d2",
+      "name": "纯牛奶（盒装）",
+      "category": "drink",
+      "energyKcal": 129,
+      "protein": 7,
+      "sodium": 73
+    },
+    {
+      "id": "fdaf6fd2f4c7",
+      "name": "双层吉士汉堡",
+      "category": "burger",
+      "energyKcal": 429,
+      "protein": 27,
+      "sodium": 1017
+    },
+    {
+      "id": "fee80a3dab3b",
+      "name": "脆薯饼",
+      "category": "fries",
+      "energyKcal": 146,
+      "protein": 1,
+      "sodium": 311
+    },
+    {
+      "id": "ff6518ce730e",
+      "name": "蜜汁BBQ风味薄皮脆汁鸡-琵琶腿",
+      "category": "drink",
+      "energyKcal": 173,
+      "protein": 18,
+      "sodium": 547
+    }
   ]
 }
