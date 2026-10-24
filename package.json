@@ -1,0 +1,17 @@
+{
+  "name": "mcblind",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "McBlind · 麦门盲测：用官方营养数据挑战你的吃麦直觉",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "sync": "node scripts/sync.mjs",
+    "challenge": "node scripts/challenge.mjs",
+    "test": "node --test",
+    "check": "node scripts/check-release.mjs"
+  },
+  "license": "MIT"
+}

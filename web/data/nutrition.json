@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "source": "demo",
+  "sourceLabel": "虚构演示题库 · 非麦当劳真实营养数据",
+  "updatedAt": "2026-10-24T00:00:00.000Z",
+  "version": "demo-v1",
+  "foods": [
+    { "id": "demo-01", "name": "双层牛肉堡", "category": "burger", "energyKcal": 510, "protein": 28, "sodium": 950 },
+    { "id": "demo-02", "name": "香脆鸡腿堡", "category": "burger", "energyKcal": 545, "protein": 22, "sodium": 1100 },
+    { "id": "demo-03", "name": "芝士鱼排堡", "category": "burger", "energyKcal": 365, "protein": 17, "sodium": 650 },
+    { "id": "demo-04", "name": "原味牛肉堡", "category": "burger", "energyKcal": 290, "protein": 15, "sodium": 720 },
+    { "id": "demo-05", "name": "中份薯条", "category": "fries", "energyKcal": 315, "protein": 4, "sodium": 210 },
+    { "id": "demo-06", "name": "五块鸡米花", "category": "nuggets", "energyKcal": 265, "protein": 16, "sodium": 520 },
+    { "id": "demo-07", "name": "香草冰淇淋", "category": "dessert", "energyKcal": 195, "protein": 5, "sodium": 90 },
+    { "id": "demo-08", "name": "巧克力冰旋风", "category": "dessert", "energyKcal": 385, "protein": 8, "sodium": 175 },
+    { "id": "demo-09", "name": "中杯鲜奶拿铁", "category": "drink", "energyKcal": 180, "protein": 9, "sodium": 135 },
+    { "id": "demo-10", "name": "中杯柠檬汽水", "category": "drink", "energyKcal": 165, "protein": 0, "sodium": 35 },
+    { "id": "demo-11", "name": "玉米蔬菜杯", "category": "side", "energyKcal": 110, "protein": 3, "sodium": 45 },
+    { "id": "demo-12", "name": "鸡蛋早餐堡", "category": "burger", "energyKcal": 305, "protein": 19, "sodium": 810 },
+    { "id": "demo-13", "name": "蜜汁烤鸡翅", "category": "nuggets", "energyKcal": 230, "protein": 18, "sodium": 495 },
+    { "id": "demo-14", "name": "焦糖苹果派", "category": "dessert", "energyKcal": 260, "protein": 2, "sodium": 150 }
+  ]
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="看起来很懂吃，真的猜得准吗？7 道盲测，挑战你的吃麦直觉。免登录，和朋友比同一套题。">
+  <meta property="og:title" content="McBlind · 麦门盲测">
+  <meta property="og:description" content="7 道题，测测你的吃麦直觉。敢来接招吗？">
+  <meta property="og:type" content="website">
+  <title>McBlind · 麦门盲测 — 你的吃麦直觉，靠谱吗？</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到主内容</a>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="McBlind 首页"><span class="brand-mark" aria-hidden="true">m<span>?</span></span><span>McBlind<span class="brand-cn">麦门盲测</span></span></a>
+    <nav aria-label="主导航"><button class="text-button" id="about-open">玩法与数据 <span aria-hidden="true">↗</span></button><a class="repo-link" href="https://github.com/sheben404/mcblind" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看 McBlind 源码">GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5h10v10M19 5 5 19"/></svg></a></nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="home" class="screen home" aria-labelledby="home-title">
+      <div class="home-copy">
+        <div class="eyebrow"><span class="status-dot"></span> THE TASTE INSTINCT TEST <span class="edition">VOL. 001</span></div>
+        <h1 id="home-title">你的吃麦直觉，<br><span class="title-last">靠<span class="outlined">谱</span>吗<span class="question-mark">?</span></span></h1>
+        <p class="intro">看着都挺懂。<br>真到二选一，还得看直觉。</p>
+        <div class="cta-row"><button class="primary-button" id="start-daily">开始今日盲测 <span aria-hidden="true">↗</span></button><span class="cta-meta">7 道题 · 不限时<br>免登录 · 无需 AI 订阅</span></div>
+        <button class="random-link" id="start-random">换套题，随便玩玩 <span aria-hidden="true">↻</span></button>
+        <p class="challenge-invite" id="challenge-invite" hidden></p>
+        <div class="source-tag" id="home-source"><span class="tiny-dot"></span><span>正在加载题库…</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit-label">TRUST YOUR GUT.</div>
+        <div class="hero-sticker sticker-fries"><span>DON'T<br>OVERTHINK.</span><svg viewBox="0 0 190 190"><g class="fries-lines"><path d="m49 89-4-52 14-2 7 54M77 89l-1-69 15-1 1 70M105 88l8-60 15 3-9 60M134 89l9-43 14 4-9 42"/><path d="m43 85 16 81h76l16-81Z"/><path d="M78 130c0-23 16-23 18 0 2-23 18-23 18 0"/></g></svg><div class="sticker-footer">SIDE A <span>HOT TAKE</span></div></div>
+        <div class="versus-badge">VS</div>
+        <div class="hero-sticker sticker-burger"><span>LOOKS CAN<br>BE DECEIVING.</span><svg viewBox="0 0 210 150"><g class="burger-lines"><path d="M38 63C38 3 171 3 171 63ZM35 79l20 8 24-8 26 8 25-8 24 8 22-8M38 100h134M40 116c0 26 130 26 130 0Z"/><path d="m75 39 5 4m22-15 5 4m24 8 5-4"/></g></svg><div class="sticker-footer">SIDE B <span>GUT FEELING</span></div></div>
+        <div class="hero-note"><svg viewBox="0 0 80 45"><path d="M72 5C65 33 34 36 9 30m0 0 12-11M9 30l16 8"/></svg><span>别急着选汉堡。</span></div>
+        <div class="art-caption"><span>NO GUESS IS TOO WILD.</span><span>01 — 07</span></div>
+      </div>
+      <div class="bottom-strip"><span>不考记忆。只考直觉。</span><span>热量 <i>↗</i> 蛋白质 <i>↗</i> 钠含量 <i>↗</i></span><span class="strip-last">READY WHEN YOU ARE.</span></div>
+    </section>
+
+    <section id="game" class="screen game" aria-labelledby="question-title" hidden>
+      <div class="game-top"><button class="text-button" id="back-home">← 返回首页</button><span class="challenge-label" id="game-label">今日盲测</span><span class="score-label" id="score-live">答对 0 题</span></div>
+      <div class="progress" id="progress" aria-label="答题进度"></div>
+      <div class="question-heading"><p class="eyebrow" id="question-number">ROUND 01 / 07</p><h2 id="question-title" tabindex="-1">谁的热量更高？</h2><p id="question-hint">按题库中的一份比较</p></div>
+      <div class="choices" id="choices"></div>
+      <div class="answer-area" id="answer-area" aria-live="polite" aria-atomic="true"><p class="keyboard-hint">相信第一眼。<span>也可以按 ← / → 选择</span></p></div>
+      <div class="game-source" id="game-source"></div>
+    </section>
+
+    <section id="result" class="screen result" aria-labelledby="result-title" hidden>
+      <div class="result-copy"><p class="eyebrow">TEST COMPLETE · 直觉已出炉</p><h2 id="result-title" tabindex="-1">半熟麦学家</h2><p id="result-subtitle"></p><div class="result-score"><span id="result-number">0</span><span>/ 7<small>道直觉命中</small></span></div><div class="result-dots" id="result-dots"></div><p class="result-comment" id="result-comment"></p>
+        <div class="result-actions"><button class="primary-button" id="save-card">保存成绩卡 <span aria-hidden="true">↓</span></button><button class="secondary-button" id="share-challenge">邀朋友来战 ↗</button></div>
+        <div class="result-links"><button class="text-button" id="play-again">再开一局 ↻</button><button class="text-button" id="review-toggle" aria-expanded="false" aria-controls="review">复盘这 7 题 ↓</button></div>
+        <p class="local-note">成绩只存在这台设备。没有编造的排名和击败率。</p>
+      </div>
+      <div class="result-preview"><div class="preview-label">YOUR TASTE REPORT <span>↙ 长图可保存</span></div><canvas id="share-canvas" width="1080" height="1440" hidden aria-hidden="true"></canvas><img id="share-image" alt="你的麦门盲测成绩卡" width="1080" height="1440"></div>
+      <div class="review" id="review" hidden></div>
+    </section>
+    <section class="screen error-screen" id="load-error" hidden aria-live="assertive"><p class="eyebrow">SOMETHING WENT WRONG</p><h2>题库暂时没打开</h2><p id="error-message"></p><button class="primary-button" id="retry">重新加载 ↻</button></section>
+    <noscript><p class="noscript">请启用 JavaScript 后开始盲测。这里不需要登录，也不会调用你的摄像头或麦克风。</p></noscript>
+  </main>
+
+  <footer class="site-footer"><span>McBlind © 2026 <span class="footer-divider">/</span> 独立开发 · 非麦当劳官方产品</span><button class="text-button" id="source-open">题库来源与说明 ↗</button></footer>
+
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-top"><span class="eyebrow">THE FINE PRINT</span><button class="close-button" id="about-close" aria-label="关闭说明">×</button></div><h2 id="about-title">先猜，再看答案。</h2><p>每局 7 道二选一，轮流比较热量、蛋白质和钠含量。按题库列出的<strong>一份餐品</strong>比较，规格不同也可能是不同份量，不代表每 100 克。没有限时，选定后揭晓数值。</p><h3>同一挑战，同一套题</h3><p>每日挑战按北京时间更新。分享的链接包含挑战码和题库版本；朋友使用同一版本打开，就能玩同一套题。更新题库后会提示版本变化。分享不包含你的答案和任何账号信息。</p><h3>数据从哪里来？</h3><p id="about-source"></p><p>正式题库由开发者在本机通过麦当劳中国官方 MCP 的 <code>list-nutrition-foods</code> 同步，网页仅加载筛选后的餐品名称、规格与三个营养数值，Token 始终留在本机。同步失败会保留旧题库。</p><h3>玩得开心就好</h3><p>这是营养数据知识小游戏，不构成饮食或医疗建议。单个数值不能代表食物好坏，餐品信息以麦当劳官方最新公布为准。没有订单、支付、领券或积分操作。</p><p class="dialog-end">不追踪、不上传成绩、不需要注册。</p></dialog>
+  <dialog id="share-dialog" aria-labelledby="share-title"><div class="dialog-top"><span class="eyebrow">PASS THE CHALLENGE ON</span><button class="close-button" id="share-close" aria-label="关闭分享">×</button></div><h2 id="share-title">轮到朋友的直觉了。</h2><p id="share-copy"></p><label class="share-field">挑战链接<input id="share-url" type="text" readonly></label><button class="primary-button" id="copy-link">复制挑战文案 ↗</button><p class="dialog-end" id="share-help"></p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
