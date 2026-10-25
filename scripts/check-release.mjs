@@ -2,7 +2,10 @@ import { readFile, access } from 'node:fs/promises';
 import { validateDataset, createChallenge } from '../web/lib/game.js';
 const root = new URL('../', import.meta.url);
 try {
-  for (const name of ['README.md', 'CONTEST_DECLARATION.md', 'MCP_INTEGRATION.md', '.agents/skills/mcblind/SKILL.md', 'web/index.html', 'web/app.js', 'web/lib/game.js', 'web/lib/card.js']) await access(new URL(name, root));
+  for (const name of ['README.md', 'CONTEST_DECLARATION.md', 'MCP_INTEGRATION.md', 'mcp-config.example.json', '.agents/skills/mcblind/SKILL.md', 'web/index.html', 'web/app.js', 'web/lib/game.js', 'web/lib/card.js']) await access(new URL(name, root));
+  const config = JSON.parse(await readFile(new URL('mcp-config.example.json', root), 'utf8'));
+  const server = config.mcpServers?.['mcd-mcp'];
+  if (server?.type !== 'streamablehttp' || server?.url !== 'https://mcp.mcd.cn' || server?.headers?.Authorization !== 'Bearer ${MCD_MCP_TOKEN}') throw new Error('MCP 配置示例必须使用官方地址与 MCD_MCP_TOKEN 环境变量占位符');
   const data = validateDataset(JSON.parse(await readFile(new URL('web/data/nutrition.json', root), 'utf8')));
   createChallenge(data, 'release-check');
   console.log(`参赛必需文件齐全；题库有效，${data.foods.length} 款餐品，版本 ${data.version}。`);

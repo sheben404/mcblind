@@ -51,6 +51,8 @@ npm run sync
 
 也支持已有的 `MCD_MCP_TOKEN` 环境变量。不需要把 Token 发给开发者或任何聊天助手。
 
+仓库根目录提供参赛要求的 [mcp-config.example.json](mcp-config.example.json)，用于支持环境变量展开的 MCP 客户端；鉴权字段仅包含 `${MCD_MCP_TOKEN}` 占位符。`npm run sync` 直接读取环境变量或 `.env.local`，不读取此示例文件。
+
 同步完成后只输出餐品数量、采集时间和题库版本。**网页不接收、不保存、不上传玩家的 Token**；工具原始响应不会存入公开目录。鉴权、解析、数据冲突或网络失败时，脚本保留旧题库并返回非零退出码。
 
 实际使用的唯一业务 Tool 是 `list-nutrition-foods`，不访问个人地址、订单、券包、积分或支付。完整调用流程见 [MCP_INTEGRATION.md](MCP_INTEGRATION.md)。
@@ -83,7 +85,7 @@ npm test
 npm run check
 ```
 
-测试覆盖分享挑战的确定性、时区、判分、无平局选题、官方紧凑营养表解析、零值与缺失值、JSON/SSE 响应、MCP 握手和 Token 请求边界。`check` 检查参赛文件、Skill 与题库状态，演示题库会明确提示真实接入尚未完成。
+测试覆盖分享挑战的确定性、时区、判分、无平局选题、官方紧凑营养表解析、零值与缺失值、JSON/SSE 响应、MCP 握手和 Token 请求边界。`check` 检查参赛文件、MCP 配置示例的环境变量占位符、Skill 与题库状态，演示题库会明确提示真实接入尚未完成。
 
 ## 技术与边界
 
@@ -91,7 +93,7 @@ npm run check
 
 题库比较的是各餐品标示的一份，**不是等重量或每 100 克对比**。数据是采集时快照，不代表门店当前在售状况，也不构成饮食或医疗建议。作品由参赛者独立开发，非麦当劳官方产品。
 
-参赛文件：[参赛声明](CONTEST_DECLARATION.md) · [MCP 接入](MCP_INTEGRATION.md) · [报名记录](docs/registration.md)
+参赛文件：[参赛声明](CONTEST_DECLARATION.md) · [MCP 接入](MCP_INTEGRATION.md) · [脱敏配置示例](mcp-config.example.json) · [报名记录](docs/registration.md)
 
 **如果它让你猜错了一题，欢迎 Star 一下，让下一位也来试试。**
 
